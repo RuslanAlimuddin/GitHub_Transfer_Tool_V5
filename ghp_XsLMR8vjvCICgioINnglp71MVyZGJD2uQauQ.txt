@@ -1,0 +1,23 @@
+GITHUB TRANSFER TOOL V5
+
+PERBAIKAN UTAMA UPLOAD FOLDER
+- Upload Folder membuat folder dengan nama folder sumber di lokasi repo yang sedang dibuka.
+- Semua file dan subfolder masuk di bawah folder tersebut.
+- Jika folder sudah ada, isi digabung: file baru ditambahkan, file dengan jalur sama diperbarui hanya setelah konfirmasi, dan file lain tidak dihapus.
+- Folder kosong dibuat menggunakan .gitkeep.
+- Backup tetap berbeda: isi folder sumber masuk langsung ke lokasi repo yang sedang dibuka tanpa membuat folder sumber tambahan.
+- Upload File tetap masuk ke lokasi repo yang sedang dibuka.
+
+CARA MENJALANKAN
+1. Ekstrak ZIP ke folder pilihan.
+2. Pastikan Python terpasang di Windows.
+3. Klik dua kali Jalankan_Aplikasi_V5.bat.
+4. Masukkan GitHub Personal Access Token di aplikasi. Token hanya digunakan selama aplikasi berjalan dan tidak disimpan oleh aplikasi.
+5. Hubungkan, pilih repositori, lalu buka.
+
+CATATAN
+- Repo Karakter_Mirip_P3 tetap dilindungi sebagai hanya-baca di dalam aplikasi.
+- GitHub tidak menyimpan folder kosong; aplikasi memakai file .gitkeep sebagai penanda.
+- File >100 MB dilewati; file >50 MB diberi peringatan.
+- Aplikasi menggunakan GitHub REST API; koneksi dan hak akses token menentukan keberhasilan operasi.
+- Lakukan uji coba pada repositori percobaan terlebih dahulu sebelum mengunggah arsip penting.
